@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  display: inline-block;
+}
+.overlay {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+.container:hover .overlay {
+  display: block;
+}
+.overlay a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 5px 0;
+}
+.overlay a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
